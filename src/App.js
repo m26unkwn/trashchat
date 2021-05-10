@@ -115,7 +115,10 @@ function App() {
       <header
         className='flex-shrink-0 flex items-center justify-between px-4 sm:px-8 shadow-md'
         style={{ height: "var(--topbar-height)" }}>
-        <h1>Trash Chat</h1>
+       <div className='font-bold text-3xl '>
+              
+              <p className='mb-3'>TrashChat</p>
+            </div>
 
         <div className='flex items-center'>
           {user ? (
